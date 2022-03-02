@@ -764,7 +764,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("https://telegra.ph/file/f8490a6e70f1d2f8f7054.jpg")
+        k = await msg.reply("https://t.me/NetflixMovies_sslinkz/8781")
         await asyncio.sleep(8)
         await k.delete()
         return
